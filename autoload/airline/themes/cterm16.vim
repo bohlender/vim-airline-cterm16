@@ -3,7 +3,7 @@ let g:airline#themes#cterm16#palette = {}
 " ==============================================================================
 " Normal
 " ==============================================================================
-let s:airline_a_normal = ['', '',  15, 5]
+let s:airline_a_normal = ['', '', 15, 5]
 let s:airline_b_normal = ['', '', 15, 0]
 let s:airline_c_normal = ['', '',  7, 8]
 
@@ -32,7 +32,7 @@ let g:airline#themes#cterm16#palette.replace.airline_z = s:airline_a_replace
 " ==============================================================================
 " Visual
 " ==============================================================================
-let s:airline_a_visual = ['', '', 232, 3]
+let s:airline_a_visual = ['', '', 0, 3]
 
 let g:airline#themes#cterm16#palette.visual = copy(g:airline#themes#cterm16#palette.normal)
 let g:airline#themes#cterm16#palette.visual.airline_a = s:airline_a_visual
